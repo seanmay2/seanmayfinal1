@@ -1,0 +1,51 @@
+body {
+    background-color: aliceblue;
+}
+
+.changefamily {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.changestyle {
+    font-style: italic; 
+}
+
+.changecolor {
+    color:peachpuff;
+}
+
+.changeweight {
+    font-weight:bold
+}
+
+.changesize {
+    font-size: x-large;
+}
+
+.changesize2 {
+    font-size:small;
+}
+
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  

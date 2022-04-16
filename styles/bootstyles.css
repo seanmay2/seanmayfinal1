@@ -1,0 +1,59 @@
+.unorderedlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: white;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 5px;
+    height: 30px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  .column1 {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    padding-bottom: 20px;
+  }
+
+  .column2 {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    padding-bottom: 120px;
+  }
+  
+  .rowafter {
+    content: "";
+    clear: both;
+    display: table;
+  }
